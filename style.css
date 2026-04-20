@@ -15,7 +15,6 @@
 body
 {
     height: 670vh;
-    overflow-x: hidden;
 }
 
 header li
@@ -182,8 +181,6 @@ header
     margin: auto;
     width: 65vw;
     display: flex;
-    gap: 4%;
-    align-items: flex-start;
 }
 
 #alinha2
@@ -199,7 +196,7 @@ header
 #section02, #section06
 {
     width: 48%;
-    margin-right: 0;
+    margin-right: 4%;
 }
 
 #section02 h1
@@ -226,7 +223,7 @@ header
 
 #section03, #section05
 {  
-    width: 48%;
+    width: 60%;
     background-color: rgb(250 ,245 ,240 );
     color: gray;
     font-family: sans-serif;
@@ -252,7 +249,7 @@ header
 
 #section04
 {
-  padding: 4% 0;
+  padding: 40%;
   overflow: hidden;
 }
 #sushi
@@ -333,9 +330,9 @@ header
 #section05
 {
     background-color: rgb(250 ,245 ,240 );
-    width: 48%;
+    width: 54%;
     padding-bottom: 8%;
-    margin-right: 0;
+    margin-right: 100px;
 }
 
 form
@@ -365,7 +362,7 @@ form textarea {
   border: none;
   background: white;
   font-size: 14px;
-  margin: 15px 0;
+  margin: 15px;
 }
 
 #butao
@@ -405,8 +402,8 @@ form textarea {
 
 #section08
 {
-    width: 48%;
-    margin-right: 0;
+    width: 80%;
+    margin-right: 50%;
 }
 
 #section08 h1
@@ -563,9 +560,7 @@ form textarea {
 #section10 ul
 {
     position: relative;
-    left: 0;
-    width: 65vw;
-    margin: 0 auto 60px;
+    left: 55%;
     margin-bottom: 60px;
     list-style: none;
 }
@@ -573,9 +568,7 @@ form textarea {
 #section10 h1
 {
     position: relative;
-    left: 0;
-    width: 65vw;
-    margin: 0 auto 30px;
+    left: 55%;
     font-size: 48px;
     line-height: 1.5;
     letter-spacing: 7.2px;
