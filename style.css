@@ -1,0 +1,587 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto", "sans-serif";    
+}
+
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+}
+
+body
+{
+    height: 670vh;
+    overflow-x: hidden;
+}
+
+header li
+{
+    display: inline-block;
+    width: 4.5%;
+}
+
+header a
+{
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover
+{
+    color: #ad9966;
+    transition: 0.45s;
+}
+
+header a:active
+{
+    color:#ad9966;
+}
+
+ul
+{
+    padding: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    font: 13px; 
+    padding: 8px;
+    letter-spacing: 2px;
+
+}
+
+header
+{
+    text-align: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+#logo
+{
+    width: 21%;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#logo img
+{
+    width: 66.81px;
+    height: 79.38px;
+}
+
+#section01
+{
+    height: 78vh;
+    background: url(header-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+}
+
+#desce
+{
+    position: absolute;
+    bottom: 6%;
+    left: 50%;
+    opacity: 0; 
+    transform: translate(-50%);
+    animation: desce 2s infinite;
+}
+
+@keyframes desce 
+{
+    from {bottom:6%;
+    opacity: 0;}
+    to {bottom:0%;
+    opacity: 1;}
+}
+
+/* Ele só formata o a se tiver dentro de uma div. */
+#muitafe1 a
+{
+ position: fixed;
+ top: 47%;
+ left: -0.5%;
+ z-index: 98;
+ transform: rotate(90deg);
+ font-size: small;
+ text-decoration: none;
+ color: #020826;
+}
+
+#muitafe2 a
+{
+ position: fixed;
+ top: 47%;
+ right: -0.75%;
+ z-index: 98;
+ transform: rotate(-90deg);
+ font-size: small;
+ text-decoration: none;
+ color: white;
+}
+
+#muitafe1 a:hover
+{
+    transform: rotate(0deg);
+    transition: 0.5s;
+    color: #ad9966;
+}
+
+#muitafe2 a:hover
+{
+    transform: rotate(0deg);
+    transition: 0.5s;
+    color: black;
+}
+
+#jogarPraDireita
+{
+    right:100%
+}
+
+#nomezinho h1
+{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 7.5px;
+    font-weight: 150;
+}
+
+#nomezinho
+{
+    position: absolute;
+    top: 45%;
+    right:40%;
+    font-size: 2em;
+    color:white;
+    font-family: serif;
+}
+
+#setadourada
+{
+    position: fixed;
+    right:0;
+    top:40%;
+}
+#setabranca
+{
+    position: fixed;
+    left:0;
+    top:40%;
+}
+
+#alinha, #alinha2, #alinha3
+{
+    margin: auto;
+    width: 65vw;
+    display: flex;
+    gap: 4%;
+    align-items: flex-start;
+}
+
+#alinha2
+{
+    margin-top: 10%;
+}
+
+#alinha3
+{
+    margin-top: 2%;
+}
+
+#section02, #section06
+{
+    width: 48%;
+    margin-right: 0;
+}
+
+#section02 h1
+{
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: 7.2px;
+    text-transform:uppercase;
+    font-family: serif;
+    font-size: 4em;
+    font-weight: 400;
+    margin-top: 50%;
+}
+#section02 p, #section06 p
+{
+    color: gray;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: larger;
+    margin-bottom: 40px;
+    margin-right: 30%;
+}
+
+#section03, #section05
+{  
+    width: 48%;
+    background-color: rgb(250 ,245 ,240 );
+    color: gray;
+    font-family: sans-serif;
+    text-align: justify;
+    padding-top: 3%;
+    padding-bottom: 12%;
+    
+}
+
+#section03 h3
+{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 100px;
+}
+
+#section03 h4, p
+{
+    text-align: center;
+    margin: 15px;
+}
+
+#section04
+{
+  padding: 4% 0;
+  overflow: hidden;
+}
+#sushi
+{
+    position:absolute;
+    top: 210%;
+    left: 22%;
+    z-index: 1;
+    width: 30%;
+}
+
+#sushi:hover, #massa:hover, #biscoitin:hover, #naosei:hover
+{
+    filter: brightness(30%);
+    transform: scale(1.3px);
+    transition: 0.5s;
+}
+#massa
+{
+    position: absolute;
+    top:250%;
+    left: 53.5%;
+}
+
+#biscoitin
+{
+    position: absolute;
+    top: 290.5%;
+    left: 26%;
+    width: 26%;
+}
+
+#naosei
+{
+    position: absolute;
+    top: 314.2%;
+    left: 53.5%;
+}
+
+#button
+{
+    right:0;
+    margin-left: 2%;
+    background-color: #ad9966;
+    font-size: 1.4em;
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+}
+
+#button a 
+{
+    font-size: 1em;
+    text-decoration: none;
+    color:white;
+}
+
+#button:hover
+{
+    background-color: white;
+    a 
+    {
+        color: #ad9966;
+        transition-duration: 0.45s;
+    }
+
+    transition-duration: 0.45s;
+}
+
+#butao:hover
+{
+    color:#ad9966;
+    background-color: white;
+    transition-duration: 0.45s;
+
+}
+
+#section05
+{
+    background-color: rgb(250 ,245 ,240 );
+    width: 48%;
+    padding-bottom: 8%;
+    margin-right: 0;
+}
+
+form
+{  
+    margin: 10%;
+}
+
+form textarea
+{
+    width: 60%;
+    height: 100px;
+
+}
+
+.form-container
+{
+    width: 35%;
+    margin: 55%;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  background: white;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+#butao
+{
+    position: relative;
+    right:0;
+    margin-left: 2%;
+    background-color: black;
+    width: 40%;
+    height: 10%;
+    padding: 10px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color:white;
+    border: #ad9966;
+}
+
+#section06 h1
+{
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: 7.2px;
+    text-transform:uppercase;
+    font-family: serif;
+    font-size: 4em;
+    font-weight: 400;
+    margin-top: 20%;
+}
+
+#chef
+{
+    position: absolute;
+    top: 495%;
+    left: 45%;
+}
+
+#section08
+{
+    width: 48%;
+    margin-right: 0;
+}
+
+#section08 h1
+{
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: 7.2px;
+    text-transform:uppercase;
+    font-family: serif;
+    font-size: 4em;
+    font-weight: 400;
+    margin-top: 20%;
+    margin-right: 8%;
+}
+
+#section08 p
+{
+    color: gray;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    margin-right: 30%;
+}
+
+#assinatura
+{
+    position: absolute;
+    top:569%;
+    right: 73%;
+}
+
+#footer {
+    background: #020826;
+    color: #ccc;
+    padding: 60px 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footerquadradão {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    width: 18%;
+    min-width: 180px;
+}
+
+.footer-col h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #aaaaaa;
+}
+
+.footer-col ul li:hover {
+    color: #d4af37;
+}
+
+
+.newsletter p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.input-box input {
+    padding: 10px;
+    border: 1px solid #333;
+    background: transparent;
+    color: white;
+    width: 70%;
+}
+
+.input-box button {
+    background: #d4af37;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #aaa;
+    display: inline-block;
+}
+
+.footer-bottom a
+{
+    color:#d4af37;
+}
+
+#coracao
+{
+    color: #d4af37;
+    display: inline-block;
+}
+
+#alinha4
+{
+    margin-bottom: 400px;
+}
+
+#section09
+{
+    height: 48vh;
+    background: url(callaction-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+#MainCourse h1
+{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 7.5px;
+    font-weight: 150;
+    color: black;
+}
+
+#MainCourse
+{
+    position: absolute;
+    background-color: rgba(220, 220, 220, 0.918);
+    padding: 5%;
+    top: 620%;
+    right: 37%;
+    font-size: 1em;
+    color:white;
+    font-family: serif;
+}
+
+#section10 ul
+{
+    position: relative;
+    left: 0;
+    width: 65vw;
+    margin: 0 auto 60px;
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+#section10 h1
+{
+    position: relative;
+    left: 0;
+    width: 65vw;
+    margin: 0 auto 30px;
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: 7.2px;
+    text-transform:uppercase;
+    font-family: serif;
+    font-size: 4em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
